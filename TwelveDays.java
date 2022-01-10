@@ -34,5 +34,3 @@ class TwelveDays {
             return verses(1,12);
         }
     }
-
-}
