@@ -19,10 +19,10 @@ public class Casio {
         Calculator obj1 = new Calculator(4, 7);
         Calculator.brand = "Casio";  //class name can be used no object needed.
         Calculator obj2 = new Calculator(12, 34);
-//        obj2.brand = "Casio";
+//        obj2.brand = "Casio";   //shared the value even without specifying
         obj1.show();
         obj2.show();
-        obj2.brand = "Rado";
+        obj2.brand = "Rado";   //object used
         obj2.show();
         obj1.show();
     }
